@@ -20,8 +20,8 @@ function compute() {
         document.getElementById('res2').innerHTML =
             'at an interest rate of ' + "<mark>" + rate + '%' + "</mark>" + '.';
         document.getElementById('res3').innerHTML =
-            'You will receive an amount of ' + "<mark>" + interest + "<mark>" + ',';
+            'You will receive an amount of ' + "<mark>" + interest + "</mark>" + ',';
         document.getElementById('res4').innerHTML =
-            'in the year ' + "<mark>" + date_year + "<mark>";
+            'in the year ' + "<mark>" + date_year + "</mark>";
     }
 }
